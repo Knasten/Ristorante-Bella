@@ -22,3 +22,16 @@ header {
     background-color: var(--top-bot-color) ;
     height: 10vh;
 }
+
+.flex-grid {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-flow: wrap row;
+}
+.col {
+    flex-basis: 50%;
+}
+.thirds {
+    width: 33%;
+}
