@@ -80,3 +80,27 @@ th {
     text-align: right;
     padding-right: 10px;
 }
+.menu-img {
+    width: 30%;
+    margin: 3% auto;
+    height: 80%;
+}
+.food-drink {
+    display: flex;
+    float: left;
+    width: 100%;
+    flex-flow: wrap;
+    margin-top: 10px;
+}
+.price {
+    float: right;
+    width: 20%;
+    margin-right: 0;
+}
+.ingredients {
+    font-size: 50%;
+    text-transform: uppercase;
+    font-style: italic;
+    width: 100%;
+    text-align: left;
+}
