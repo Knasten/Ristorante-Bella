@@ -1,0 +1,24 @@
+:root {
+    --bg-color: rgb(14, 13, 13);
+    --fg-color: #FFF;
+    --top-bot-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+}
+header h1, header {
+    font-family: 'Roboto Slab', serif;
+}
+header {
+    width: 100%;
+    background-color: var(--top-bot-color) ;
+    height: 10vh;
+}
