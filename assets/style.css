@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html {
     font-family: 'Montserrat', sans-serif;
@@ -34,4 +35,21 @@ header {
 }
 .thirds {
     width: 33%;
+    flex-basis: 33%;
+}
+ul {
+    list-style-type: none;
+}
+nav li, footer li {
+    font-size: 180%;
+}
+a {
+    text-decoration: none;
+    color: var(--fg-color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+a:hover, #active {
+    text-decoration: underline;
+    color: var(--fg-color);
 }
