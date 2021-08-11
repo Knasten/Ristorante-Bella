@@ -91,6 +91,7 @@ th {
     width: 100%;
     flex-flow: wrap;
     margin-top: 10px;
+    text-transform: capitalize;
 }
 .price {
     float: right;
@@ -98,7 +99,7 @@ th {
     margin-right: 0;
 }
 .ingredients {
-    font-size: 50%;
+    font-size: 65%;
     text-transform: uppercase;
     font-style: italic;
     width: 100%;
