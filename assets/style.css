@@ -140,8 +140,6 @@ iframe {
     height: 90%;
     border: 0; 
 }
-
-
 @media screen and (min-width: 1990px) {
     body {
         font-size: 30px;
@@ -169,8 +167,7 @@ iframe {
     h1 {
         font-size: 130%;
     }
-    }
-    
+}
  @media screen and (max-width: 949px) {
     .flex-grids-thirds {
         flex-flow: wrap column;
@@ -185,4 +182,11 @@ iframe {
         width: 100%;
         text-align: center;
     }
+    footer {
+        position: fixed;
+        height: 15vh;
     }
+    body {
+        margin-bottom: 15vh;
+    }
+}
