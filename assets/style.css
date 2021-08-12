@@ -4,6 +4,7 @@
     --top-bot-color: black;
     --head-font: 'Roboto Slab', serif;
     --page-font: 'Montserrat', sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -128,7 +129,11 @@ form label {
     width: 100vw;
     background-size: cover;
 }
-
+iframe {
+    width: 90%;
+    height: 90%;
+    border: 0; 
+}
 
 
 @media screen and (min-width: 1990px) {
