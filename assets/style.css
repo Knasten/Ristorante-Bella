@@ -1,9 +1,9 @@
 :root {
-    --bg-color: rgb(14, 13, 13); /* color for content background */
-    --fg-color: #FFF;            /* text color */
-    --top-bot-color: black;      /* header and footer color */
-    --head-font: 'Roboto Slab', serif;
-    --page-font: 'Montserrat', sans-serif;
+    --bg-color: rgb(14, 13, 13);              /* color for content background */
+    --fg-color: #FFF;                         /* text color */
+    --top-bot-color: black;                   /* header and footer color */
+    --head-font: 'Roboto Slab', serif;          /* Font for header and footer aswell as major text */
+    --page-font: 'Montserrat', sans-serif;      /* Font for minor text as paragraphs and non vital text */
 }
 * {
     margin: 0;
@@ -122,8 +122,14 @@ form label {
     font-weight: 600;
 }
 /* Go back to this later. */
-.full-page {
-    height: 100vh;
+.half-page {
+    height: 40vh;
+}
+.filler-img {
+    background: url(./image/filler-img.jpeg) center bottom no-repeat;
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
 }
 @media screen and (max-width: 1073px) {
     .col {
