@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Ristorante Bella</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');</style>
+    <title>Ristorante Bella - Booking</title>
 </head>
 <body>
     <header class="flex-grid">
@@ -16,19 +17,22 @@
         </div>
         <nav class="col">
             <ul class="flex-grid">
-                <li id="active" class="thirds"><a href="./index.html">Home <i class="fas fa-home"></i></a></li>
+                <li class="thirds"><a href="./index.html">Home <i class="fas fa-home"></i></a></li>
                 <li class="thirds"><a href="./menu.html">Menu <i class="fas fa-pizza-slice"></i></a></li>
-                <li class="thirds"><a href="./booking.html">Booking <i class="fas fa-book-open"></i></a></li>
+                <li id="active" class="thirds"><a href="./booking.html">Booking <i class="fas fa-book-open"></i></a></li>
             </ul>
         </nav>
     </header>
     <div class="flex-grid">
-        <div class="thirds">
+        <div class="thirds full-page">
+            <h3>Come Visit Us!</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d595.0406975983058!2d-1.4780514707440136!3d53.37613669879745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879827e0ac29609%3A0x7f5eca170d8cebb5!2s132%20Thomas%20St%2C%20Sheffield%20City%20Centre%2C%20Sheffield%20S1%204JR%2C%20Storbritannien!5e0!3m2!1ssv!2sse!4v1628780333050!5m2!1ssv!2sse" frameborder="0" loading="lazy"
-            width="33%" height="auto"></iframe>
+            width="90%" height="50%"></iframe>
         </div>
-        <p class="thirds">To order food for pickup please call 0340-3987746 </p>
-        <div class="thirds">
+        <div class="col-thirds">
+            <p>To order food for pickup please call 0340-3987746</p>
+        </div>
+        <div class="col-thirds">
             <h3>Book Your Table Here!</h3>
             <form action="" method="POST">
                 <label for="name">Full Name:</label>
@@ -41,6 +45,7 @@
                 <input type="number" name="party" id="party">
                 <label for="allergies">Any Allergies:</label>
                 <input type="text" name="allergies" id="allergies">
+                <input type="submit" value="Confirm Booking">
             </form>
         </div>
     </div>

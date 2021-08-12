@@ -2,6 +2,8 @@
     --bg-color: rgb(14, 13, 13); /* color for content background */
     --fg-color: #FFF;            /* text color */
     --top-bot-color: black;      /* header and footer color */
+    --head-font: 'Roboto Slab', serif;
+    --page-font: 'Montserrat', sans-serif;
 }
 * {
     margin: 0;
@@ -9,7 +11,7 @@
     box-sizing: border-box;
 }
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--page-font)
 }
 body {
     color: var(--fg-color);
@@ -20,7 +22,7 @@ footer {
     overflow: hidden;
 }
 header h1, header, footer {
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--head-font)
 }
 header, footer {
     width: 100%;
@@ -39,6 +41,9 @@ header, footer {
 }
 .thirds {
     width: 33%;
+}
+.col-thirds {
+    flex-basis: 33%;
 }
 ul {
     list-style-type: none;
@@ -106,7 +111,7 @@ th {
     text-align: left;
 }
 form {
-    width: 20%;
+    width: 35%;
     display: inline-block;
 }
 form input {
@@ -116,3 +121,27 @@ form input {
 form label {
     font-weight: 600;
 }
+/* Go back to this later. */
+.full-page {
+    height: 100vh;
+}
+@media screen and (max-width: 1073px) {
+    .col {
+        flex-basis: 50%; /* Come back to later */
+    }
+    }
+    
+    @media screen and (max-width: 815px) {
+    .col {
+        flex-basis: 100%;
+    }
+    header, footer {
+        height: 25vh;
+    }
+    .flex-grids-thirds {
+        flex-flow: wrap column;
+    }
+    .col-thirds {
+        flex-basis: 100%;
+    }
+    }
