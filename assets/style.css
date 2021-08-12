@@ -184,9 +184,22 @@ iframe {
     }
     footer {
         position: fixed;
+        bottom: 0;
+        height: 20vh;
+    }
+    header {
+        position: fixed;
+        top: 0;
         height: 15vh;
     }
+    form {
+        width: 50%;
+    }
+    form label, form input {
+        width: 100%;
+    }
     body {
-        margin-bottom: 15vh;
+        margin-top: 15vh;
+        margin-bottom: 20vh;
     }
 }
