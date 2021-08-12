@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="restaurant site for ristorante bella.">
     <meta name="keywords" content="restaurant, ristorante bella, italian food, food, dinner, lunch, bella, ristorante">
+    <title>Ristorante Bella - Booking</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
@@ -37,17 +38,27 @@
         <div class="col-thirds">
             <h3>Book Your Table Here!</h3>
             <form action="got-non-to-fill" method="POST">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" placeholder="Full Name">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" placeholder="123-4567890">
-                <label for="email">E-Mail Address:</label>
-                <input type="email" name="email" id="email" placeholder="E-Mail">
-                <label for="party">Party Size:</label>
-                <input type="number" name="party" id="party" placeholder="Party Size"> 
-                <label for="allergies">Any Allergies:</label>
-                <input type="text" name="allergies" id="allergies" placeholder="Allergies">
-                <input type="submit" value="Confirm Booking">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Full Name">
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" placeholder="123-4567890">
+                </div>
+                <div>
+                    <label for="email">E-Mail Address:</label>
+                    <input type="email" name="email" id="email" placeholder="E-Mail">
+                </div>
+                <div>
+                    <label for="party">Party Size:</label>
+                    <input type="number" name="party" id="party" placeholder="Party Size">
+                </div>
+                <div>
+                    <label for="allergies">Any Allergies:</label>
+                    <input type="text" name="allergies" id="allergies" placeholder="Allergies">
+                </div>
+                    <input type="submit" value="Confirm Booking">
             </form>
         </div>
         <div class="filler-img"></div>

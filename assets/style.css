@@ -17,6 +17,8 @@ html {
 body {
     color: var(--fg-color);
     background-color: var(--bg-color);
+    margin-bottom: 11vh;
+    font-size: 24px;
 }
 footer {
     overflow: hidden;
@@ -29,7 +31,10 @@ header, footer {
     background-color: var(--top-bot-color) ;
     height: 10vh;
 }
-
+footer {
+    position: fixed;
+    bottom: 0;
+}
 .flex-grid {
     display: flex;
     align-content: space-around;
@@ -139,34 +144,45 @@ iframe {
 
 @media screen and (min-width: 1990px) {
     body {
-        font-size: 26px;
+        font-size: 30px;
+    }
+    form {
+        width: 50%;
+        display: block;
     }
 }
-@media screen and (max-width: 1073px) {
+@media screen and (max-width: 1640px) {
+    body {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1289px) {
     .col {
         flex-basis: 50%;
     }
     body {
-        font-size: 14px;
+        font-size: 20px;
+    }
+    nav li, footer li {
+        font-size: 130%;
+    }
+    h1 {
+        font-size: 130%;
     }
     }
     
- @media screen and (max-width: 815px) {
-    header, footer {
-        height: 15vh;
-    }
+ @media screen and (max-width: 949px) {
     .flex-grids-thirds {
         flex-flow: wrap column;
     }
     .col-thirds {
         flex-basis: 100%;
     }
-    nav li, footer li {
-        font-size: 130%;
-    }
-    }
-@media screen and (max-width: 560px) {
     .col {
-      flex-basis: 100%;
+        flex-basis: 100%;
     }
-}
+    .thirds {
+        width: 100%;
+        text-align: center;
+    }
+    }
