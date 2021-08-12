@@ -22,11 +22,27 @@
             </ul>
         </nav>
     </header>
-    <div class="flex-grid thirds">
-        <div class="col thirds full"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d595.0406975983058!2d-1.4780514707440136!3d53.37613669879745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879827e0ac29609%3A0x7f5eca170d8cebb5!2s132%20Thomas%20St%2C%20Sheffield%20City%20Centre%2C%20Sheffield%20S1%204JR%2C%20Storbritannien!5e0!3m2!1ssv!2sse!4v1628780333050!5m2!1ssv!2sse" frameborder="0" loading="lazy"
-        width="100%" height="auto"></iframe></div>
-        <p class="col thirds">To order food for pickup please call 0340-3987746 </p>
-        <div class="col thirds"></div>
+    <div class="flex-grid">
+        <div class="thirds">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d595.0406975983058!2d-1.4780514707440136!3d53.37613669879745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879827e0ac29609%3A0x7f5eca170d8cebb5!2s132%20Thomas%20St%2C%20Sheffield%20City%20Centre%2C%20Sheffield%20S1%204JR%2C%20Storbritannien!5e0!3m2!1ssv!2sse!4v1628780333050!5m2!1ssv!2sse" frameborder="0" loading="lazy"
+            width="33%" height="auto"></iframe>
+        </div>
+        <p class="thirds">To order food for pickup please call 0340-3987746 </p>
+        <div class="thirds">
+            <h3>Book Your Table Here!</h3>
+            <form action="" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}">
+                <label for="email">E-Mail Address:</label>
+                <input type="email" name="email" id="email">
+                <label for="number">Phone Number:</label>
+                <input type="number" name="party" id="party">
+                <label for="allergies">Any Allergies:</label>
+                <input type="text" name="allergies" id="allergies">
+            </form>
+        </div>
     </div>
     <footer>
         <div class="flex-grid">
