@@ -18,7 +18,7 @@ body {
     color: var(--fg-color);
     background-color: var(--bg-color);
     margin-bottom: 11vh;
-    font-size: 24px;
+    font-size: 18px;
 }
 footer {
     overflow: hidden;
@@ -125,6 +125,7 @@ form {
 form input {
     text-align: center;
     margin-bottom: 10px;
+    width: 100%;
 }
 form label {
     font-weight: 600;
@@ -149,7 +150,6 @@ iframe {
     }
     form {
         width: 50%;
-        display: block;
     }
 }
 @media screen and (max-width: 1640px) {
@@ -182,7 +182,6 @@ iframe {
         flex-basis: 100%;
     }
     .thirds {
-        width: 100%;
         text-align: center;
     }
     footer {
@@ -196,13 +195,17 @@ iframe {
         height: 15vh;
     }
     form {
-        width: 50%;
-    }
-    form label, form input {
-        width: 100%;
+        width: 75%;
     }
     body {
         margin-top: 15vh;
         margin-bottom: 20vh;
+        font-size: 13px;
+    }
+    #map-container {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
     }
 }
