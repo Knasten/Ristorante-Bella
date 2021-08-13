@@ -208,4 +208,7 @@ iframe {
     iframe {
         width: 100%;
     }
+    .bg-img {
+        height: 62vh;
+    }
 }
