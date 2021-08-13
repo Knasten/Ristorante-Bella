@@ -1,6 +1,6 @@
-![picture of responsivenss]()
-# [LINK FOR LIVE VIEW](https://knasten.github.io/my-first-project/)
+![picture of responsivenss](assets/readme_imgs/response.jpg)
 # Ristorante Bella
+# [LINK FOR LIVE VIEW](https://knasten.github.io/my-first-project/)
 
 Made as a first project in my couse on becomming an Full-Stacked-Devloper.
 On this website potenial customers will be able to find any information needed before deciding if they wanna try our food. Aswell as be able to book a table for future visits.
@@ -10,8 +10,9 @@ On this website potenial customers will be able to find any information needed b
 2. Testing
 3. Bugs
 4. Validation
-5. Deployment
-6. Credits
+5. Tools
+6. Deployment
+7. Credits
 
 # Features
 * Navigation
@@ -25,11 +26,15 @@ On this website potenial customers will be able to find any information needed b
 
     * Made to make user experience better and more compelling 
 
+    ![Picture of navigation bar](/assets/readme_imgs/navbar.jpg)
+
 * Home Page
 
     * On this page you will find a background image to the left. Put there to fill out the page and make it look more appealing.
 
     * On the right side you can find the open times for Ristorante Bella aswell as some feedback from previous customers.
+
+    ![Picture of home page](/assets/readme_imgs/home.jpg)
 
 * Menu Page
 
@@ -41,14 +46,19 @@ On this website potenial customers will be able to find any information needed b
 
     * You will find the price of each item and will also be able to see some of the main ingredients in each meal.
 
+    ![Picture of menu page](/assets/readme_imgs/menu.jpg)
 * Booking Page
     * On this page you will find a map on the left side with our location to make sure customers can find you.
     * On the right side you will be able to book a table, you can choose party size, if any of you have any allergies and of course also add you contact information.
     * In the middle of the map and form there is a small text containing some information about adress and phone number to order food.
 
+    ![Picture of booking page](/assets/readme_imgs/booking.jpg)
+
 * Footer
     * You will find the contact information on every page at the bottom. Made to make it easier for the user to find the most important information.
     * In the bottom right you will also find our social media links.
+
+    ![Picture of footer](/assets/readme_imgs/footer.jpg)
 
 # Testing
 
@@ -68,10 +78,25 @@ On this website potenial customers will be able to find any information needed b
 
 * HTML
     * No errors when testing it through offical W3C validator
-* CSS
-    * No errors were found when testing it through the offical Jigsaw Validator
+    
 * Accessibility
     * I made sure my chosen colors and fonts are easy to read by running it through lighthouse extension on chrome.
+    ![Picture of score from lighthouse](/assets/readme_imgs/lh_report.jpg)
+    * Also made an extra performance test on Gtmetrix ![Picture of GTMetrix score](assets/readme_imgs/gtmetrix.jpg)
+
+# Tools
+
+* I used GitPod to write the code for my website below you can see which languages were used to make this website.
+    * HTML5
+    * CSS3
+
+* I used [GitHub](https://github.com/) to deploy my website.
+* I used [GoogleAPI](https://developers.google.com/maps/documentation/embed/map-generator) for my Iframe google map
+* I used [GoogleFonts](https://fonts.google.com/) for the fonts on my website
+* I used [FontAwesome Ver.5.15.4](https://fontawesome.com/) for the icons you can see next to all site links and also in the footer for the social media links
+* I used [TinyPNG](https://tinypng.com/) to make my images smaller for faster loading speeds.
+![Picture of TinyPNG results](assets/readme_imgs/tiny.jpg)
+* I also gathered information on flex-grid on the web especially from [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 # Deployment
 
@@ -86,3 +111,5 @@ On this website potenial customers will be able to find any information needed b
 * Text under heading "Fine Dining" was borrowed from [Hardrock Café](https://www.hardrockcafe.com/location/stockholm/)
 * Text under "Reviews" was borrowed from [Eat_Sleep_Wander](https://eatsleepwander.com/good-restaurant-review-examples-to-copy-paste/)
 * All images you see on this site was taken from [Pexels](https://www.pexels.com/)
+
+![CSS valid gif](assets/readme_imgs/cssvalid.gif) ![CSS valid gif blue](assets/readme_imgs/cssvalidblue.gif)
