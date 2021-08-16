@@ -1,6 +1,6 @@
 ![picture of responsivenss](assets/readme_imgs/response.jpg)
 # Ristorante Bella
-# [LINK FOR LIVE VIEW](https://knasten.github.io/my-first-project/)
+# [LINK FOR LIVE VIEW](https://knasten.github.io/Ristorante-Bella/)
 
 Made as a first project in my course on becoming an Full-Stacked-devloper.
 On this website potential customers will be able to find any information needed before deciding if they wanna try our food. As well as be able to book a table for future visits.
