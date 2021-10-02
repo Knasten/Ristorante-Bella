@@ -6,81 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="restaurant site for ristorante bella.">
     <meta name="keywords" content="restaurant, ristorante bella, italian food, food, dinner, lunch, bella, ristorante">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Ristorante Bella - Menu</title>
 </head>
 <body>
+    <!-- Header with link menu -->
     <header class="flex-grid">
         <div class="col">
             <h1>
-                <a href="./index.html" aria-label="Click this to go to home page (Open in existing tab)">Ristorante Bella <i class="fas fa-utensils"></i></a>
+                <a href="./index.html">Ristorante Bella <i class="fas fa-utensils"></i></a>
             </h1>
         </div>
         <nav class="col">
             <ul class="flex-grid">
-                <li class="thirds"><a href="./index.html" aria-label="Click this to go to home page (Open in existing tab)">Home <i class="fas fa-home"></i></a></li>
-                <li id="active" class="thirds"><a href="./menu.html" aria-label="Click this to go to menu page (Open in existing tab)">Menu <i class="fas fa-pizza-slice"></i></a></li>
-                <li class="thirds"><a href="./booking.html" aria-label="Click this to go to booking page (Open in existing tab)">Booking <i class="fas fa-book-open"></i></a></li>
+                <li class="thirds"><a href="./index.html">Home <i class="fas fa-home"></i></a></li>
+                <li class="thirds"><a href="./menu.html">Menu <i class="fas fa-pizza-slice"></i></a></li>
+                <li id="active" class="thirds"><a href="./booking.html">Booking <i class="fas fa-book-open"></i></a></li>
             </ul>
         </nav>
     </header>
-        <div class="flex-grid">
-            <div class="col flex-grid">
-                <h3 class="menu-heading">Appetizers</h3>
-                <ul class="col">
-                    <li class="food-drink">Caponata<p class="price">7.50 £</p><ul class="ingredients"><li>Aubergine, Onion and Garlic</li></ul></li>
-                    <li class="food-drink">Spiedini<p class="price">7.50 £</p><ul class="ingredients"><li>Beef, Red Onion and Sage Leaves</li></ul></li>
-                    <li class="food-drink">Crostini<p class="price">7 £</p><ul class="ingredients"><li>Tomato, Pesto and basil leaves</li></ul></li>
-                    <li class="food-drink">Marinated Mozarella<p class="price">6 £</p><ul class="ingredients"><li>Herbs and Spices</li></ul></li>
-                    <li class="food-drink">Garlic Bread<p class="price">6 £</p><ul class="ingredients"><li>Garlic and Butter</li></ul></li>
-                </ul>
-                <div>
-                    <img class="col menu-img" src="./assets/image/bacon-bread.jpg" alt="Picture of breadroll with bacon on">
-                    <img class="col menu-img" src="./assets/image/bread.jpg" alt="Picture of a loaf of Bread">
-                </div>
-            </div>
-            <div class="col flex-grid">
-                <h3 class="menu-heading">Mains</h3>
-                <ul class="col">
-                    <li class="food-drink">Pasta Carbonara<p class="price">11.50 £</p><ul class="ingredients"><li>Bacon, Spaghetti and an egg on top</li></ul></li>
-                    <li class="food-drink">Pizza Napoletana<p class="price">10.50 £</p><ul class="ingredients"><li>Sardins, ruccola and Mozarella</li></ul></li>
-                    <li class="food-drink">Bolognese<p class="price">10.50 £</p><ul class="ingredients"><li>ground pork, tomatoes, spaghetti and onions</li></ul></li>
-                    <li class="food-drink">Mushroom Risoto<p class="price">9.50 £</p><ul class="ingredients"><li>Rice, Mushrooms and shallot</li></ul></li>
-                </ul>
-                <div>
-                    <img class="col menu-img" src="./assets/image/pizza.jpeg" alt="Picture of a pizza on a chopping board">
-                    <img class="col menu-img" src="./assets/image/pasta.jpeg" alt="Picture of pasta with tomato sauce and beans">
-                </div>
-            </div>
-            <div class="col flex-grid">
-                <h3 class="menu-heading">Desserts</h3>
-                <ul class="col">
-                    <li class="food-drink">Espresso martini tiramisu<p class="price">7 £</p><ul class="ingredients"><li>Contains Alcohol</li></ul></li>
-                    <li class="food-drink">Double chocolate Italian biscotti<p class="price">7 £</p>
-                    <li class="food-drink">Affogato chocolate mousse<p class="price">6 £</p>
-                    <li class="food-drink">Amalfi lemon syllabub<p class="price">6 £</p>
-                    </ul>
-                <div>
-                    <img class="col menu-img" src="./assets/image/mousse.jpeg" alt="Picture of chocolate mousse with pomegranate on top">
-                    <img class="col menu-img" src="./assets/image/tiramisu.jpg" alt="Picture of tiramisu on a plate with some cacoa powder">
-                </div>
-            </div>
-            <div class="col flex-grid">
-                <h3 class="menu-heading">Drinks</h3>
-                <ul class="col">
-                    <li class="food-drink">Wine<p class="price">6 £</p>
-                    <li class="food-drink">Beer<p class="price">4 £</p>
-                    <li class="food-drink">Can of Soda<p class="price">3 £</p>
-                    <li class="food-drink">Sparkling Water<p class="price">3 £</p>
-                    <li class="food-drink">Juice<p class="price">2 £</p>
-                    <li class="food-drink">Coffee<p class="price">2 £</p>
-                </ul>
-                <div>
-                    <img class="col menu-img" src="./assets/image/coffee.jpg" alt="Picture of man holding a coffee cup pouring cream to make a tulip">
-                    <img class="col menu-img" src="./assets/image/beer.jpg" alt="Picture of a glass of beer with foam pouring over">
-                </div>
+    <!-- /.Header -->
+    <!-- Main Section with menu-->
+    <div class="flex-grid">
+        <div class="col flex-grid">
+            <h3 class="menu-heading">Appetizers</h3>
+            <ul class="col">
+                <li class="food-drink">Caponata<p class="price">7.50 £</p><ul class="ingredients"><li>Aubergine, Onion and Garlic</li></ul></li>
+                <li class="food-drink">Spiedini<p class="price">7.50 £</p><ul class="ingredients"><li>Beef, Red Onion and Sage Leaves</li></ul></li>
+                <li class="food-drink">Crostini<p class="price">7 £</p><ul class="ingredients"><li>Tomato, Pesto and basil leaves</li></ul></li>
+                <li class="food-drink">Marinated Mozarella<p class="price">6 £</p><ul class="ingredients"><li>Herbs and Spices</li></ul></li>
+                <li class="food-drink">Garlic Bread<p class="price">6 £</p><ul class="ingredients"><li>Garlic and Butter</li></ul></li>
+            </ul>
+            <div>
+                <img class="col menu-img" src="./assets/image/bacon-bread.jpg" alt="Picture of breadroll with bacon on">
+                <img class="col menu-img" src="./assets/image/bread.jpg" alt="Picture of a loaf of Bread">
             </div>
         </div>
+        <div class="col flex-grid">
+            <h3 class="menu-heading">Mains</h3>
+            <ul class="col">
+                <li class="food-drink">Pasta Carbonara<p class="price">11.50 £</p><ul class="ingredients"><li>Bacon, Spaghetti and an egg on top</li></ul></li>
+                <li class="food-drink">Pizza Napoletana<p class="price">10.50 £</p><ul class="ingredients"><li>Sardins, ruccola and Mozarella</li></ul></li>
+                <li class="food-drink">Bolognese<p class="price">10.50 £</p><ul class="ingredients"><li>ground pork, tomatoes, spaghetti and onions</li></ul></li>
+                <li class="food-drink">Mushroom Risoto<p class="price">9.50 £</p><ul class="ingredients"><li>Rice, Mushrooms and shallot</li></ul></li>
+            </ul>
+            <div>
+                <img class="col menu-img" src="./assets/image/pizza.jpeg" alt="Picture of a pizza on a chopping board">
+                <img class="col menu-img" src="./assets/image/pasta.jpeg" alt="Picture of pasta with tomato sauce and beans">
+            </div>
+        </div>
+        <div class="col flex-grid">
+            <h3 class="menu-heading">Desserts</h3>
+            <ul class="col">
+                <li class="food-drink">Espresso martini tiramisu<p class="price">7 £</p><ul class="ingredients"><li>Contains Alcohol</li></ul></li>
+                <li class="food-drink">Double chocolate Italian biscotti<p class="price">7 £</p>
+                <li class="food-drink">Affogato chocolate mousse<p class="price">6 £</p>
+                <li class="food-drink">Amalfi lemon syllabub<p class="price">6 £</p>
+                </ul>
+            <div>
+                <img class="col menu-img" src="./assets/image/mousse.jpeg" alt="Picture of chocolate mousse with pomegranate on top">
+                <img class="col menu-img" src="./assets/image/tiramisu.jpg" alt="Picture of tiramisu on a plate with some cacoa powder">
+            </div>
+        </div>
+        <div class="col flex-grid">
+            <h3 class="menu-heading">Drinks</h3>
+            <ul class="col">
+                <li class="food-drink">Wine<p class="price">6 £</p>
+                <li class="food-drink">Beer<p class="price">4 £</p>
+                <li class="food-drink">Can of Soda<p class="price">3 £</p>
+                <li class="food-drink">Sparkling Water<p class="price">3 £</p>
+                <li class="food-drink">Juice<p class="price">2 £</p>
+                <li class="food-drink">Coffee<p class="price">2 £</p>
+            </ul>
+            <div>
+                <img class="col menu-img" src="./assets/image/coffee.jpg" alt="Picture of man holding a coffee cup pouring cream to make a tulip">
+                <img class="col menu-img" src="./assets/image/beer.jpg" alt="Picture of a glass of beer with foam pouring over">
+            </div>
+        </div>
+    </div>
+    <!-- Main Section -->
+    <!-- Footer wtih social links -->
     <footer>
         <div class="flex-grid">
             <p class="col">
@@ -101,6 +106,7 @@
             </ul>
         </div>
     </footer>
+    <!-- /.Footer -->
     <script src="https://kit.fontawesome.com/89b5a43f30.js" crossorigin="anonymous"></script>
 </body>
 </html>
