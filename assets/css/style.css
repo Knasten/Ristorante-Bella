@@ -125,6 +125,7 @@ th {
     flex-flow: wrap;
     margin-top: 10px;
     text-transform: capitalize;
+    padding-left: 20px;
 }
 .price {
     float: right;
